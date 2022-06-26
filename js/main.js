@@ -16,7 +16,7 @@ for (i = 0; i < pokemons.length; i++){
 
     imgImgEl.src = pokemons[i].img
     multEL.appendChild(imgImgEl)
-    imgImgEl.setAttribute("class", "mb-5")
+    imgImgEl.setAttribute("class")
 
     idPEl.textContent = pokemons[i].id
     multEL.appendChild(idPEl)
